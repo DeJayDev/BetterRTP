@@ -6,7 +6,7 @@ import org.bukkit.command.CommandSender;
 
 public class Permissions {
 
-    private String prefix = "betterrtp.";
+    private String prefix = "evenbetterrtp.";
 
     public boolean canRun(CommandSender sender) {
         return perm(prefix + "use", sender);

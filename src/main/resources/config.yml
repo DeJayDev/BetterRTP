@@ -9,7 +9,7 @@ Settings:
   RespectSavageFactions: false
   ## Must be a positive integer #
   MinRadius: 25
-  ## Maximum amount of tries before BetterRTP gives up and sends a NotSafeMessage #
+  ## Maximum amount of tries before EvenBetterRTP gives up and sends a NotSafeMessage #
   MaxAttempts: 15
   ## Enabled or disabled cooldown timer, time is in SECONDS #
   Cooldown:
@@ -31,7 +31,7 @@ Default:
   centerX: 0
   centerZ: 0
 
-## Blocks BetterRTP will NOT teleport onto. More Blocks at: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html #
+## Blocks EvenBetterRTP will NOT teleport onto. More Blocks at: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html #
 BlacklistedBlocks:
   - stationary_water
   - stationary_lava

@@ -1,51 +1,51 @@
-main: dev.dejay.evenbetterrtp..Main
+main: dev.dejay.evenbetterrtp.Main
 version: ${project.version}
-name: BetterRTP
+name: EvenBetterRTP
 author: [SuperRonanCraft, DeJayDev]
 softdepend: [Vault, WorldGuard, GriefPrevention, Factions]
 api-version: 1.16
 
 commands:
-    betterrtp:
-        aliases: [brtp, rtp]
+    evenbetterrtp:
+        aliases: [ebrtp, brtp, rtp]
         description: Randomly teleport to a location
 
 permissions:
-    betterrtp.*:
+    evenbetterrtp.*:
         children:
-            betterrtp.use: true
-            betterrtp.world.*: true
-            betterrtp.bypass.*: true
-            betterrtp.player: true
-            betterrtp.reload: true
-            betterrtp.biome: true
-    betterrtp.world.*:
+            evenbetterrtp.use: true
+            evenbetterrtp.world.*: true
+            evenbetterrtp.bypass.*: true
+            evenbetterrtp.player: true
+            evenbetterrtp.reload: true
+            evenbetterrtp.biome: true
+    evenbetterrtp.world.*:
         description: RTP in all enabled worlds
-    betterrtp.bypass.*:
+    evenbetterrtp.bypass.*:
             children:
-                betterrtp.bypass.cooldown: true
-                betterrtp.bypass.delay: true
-                betterrtp.bypass.economy: true
-    betterrtp.use:
+                evenbetterrtp.bypass.cooldown: true
+                evenbetterrtp.bypass.delay: true
+                evenbetterrtp.bypass.economy: true
+    evenbetterrtp.use:
         description: Use RTP command
         default: true
-    betterrtp.world:
+    evenbetterrtp.world:
         description: Use world command
-    betterrtp.player:
+    evenbetterrtp.player:
         description: RTP another player
-    betterrtp.biome:
+    evenbetterrtp.biome:
         description: RTP to specific biomes
-    betterrtp.sign:
+    evenbetterrtp.sign:
         description: Ability to create an RTP sign
-    betterrtp.bypass.cooldown:
+    evenbetterrtp.bypass.cooldown:
         description: Bypass cooldowns
-    betterrtp.bypass.delay:
+    evenbetterrtp.bypass.delay:
         description: Bypass delays
-    betterrtp.bypass.economy:
+    evenbetterrtp.bypass.economy:
         description: Bypass economy
-    betterrtp.reload:
+    evenbetterrtp.reload:
         description: Reload the config
         default: op
-    betterrtp.info:
+    evenbetterrtp.info:
         description: View info about all worlds rtp will work in
         default: op

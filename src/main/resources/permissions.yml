@@ -1,38 +1,38 @@
 permissions:
-    betterrtp.*:
+    evenbetterrtp.*:
         children:
-            betterrtp.use: true
-            betterrtp.world: true
-            betterrtp.world.*: true
-            betterrtp.bypass.*: true
-            betterrtp.player: true
-            betterrtp.reload: true
-    betterrtp.world:
+            evenbetterrtp.use: true
+            evenbetterrtp.world: true
+            evenbetterrtp.world.*: true
+            evenbetterrtp.bypass.*: true
+            evenbetterrtp.player: true
+            evenbetterrtp.reload: true
+    evenbetterrtp.world:
         description: RTP into other worlds
-    betterrtp.world.*:
+    evenbetterrtp.world.*:
         description: RTP in all enabled worlds
-    betterrtp.world.<world>:
+    evenbetterrtp.world.<world>:
             description: RTP in <world>
-    betterrtp.bypass.*:
+    evenbetterrtp.bypass.*:
             children:
-                betterrtp.bypass.cooldown: true
-                betterrtp.bypass.delay: true
-                betterrtp.bypass.economy: true
-    betterrtp.use:
+                evenbetterrtp.bypass.cooldown: true
+                evenbetterrtp.bypass.delay: true
+                evenbetterrtp.bypass.economy: true
+    evenbetterrtp.use:
         description: Use RTP command
         default: true
-    betterrtp.player:
+    evenbetterrtp.player:
         description: RTP another player
-    betterrtp.biome:
+    evenbetterrtp.biome:
         description: RTP to specific biomes
-    betterrtp.sign:
+    evenbetterrtp.sign:
         description: Ability to create an RTP sign
-    betterrtp.bypass.cooldown:
+    evenbetterrtp.bypass.cooldown:
         description: Bypass cooldowns
-    betterrtp.bypass.delay:
+    evenbetterrtp.bypass.delay:
         description: Bypass delays
-    betterrtp.bypass.economy:
+    evenbetterrtp.bypass.economy:
         description: Bypass economy
-    betterrtp.reload:
+    evenbetterrtp.reload:
         description: Reload the config
         default: op
