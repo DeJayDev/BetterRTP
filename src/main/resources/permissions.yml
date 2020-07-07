@@ -7,7 +7,6 @@ permissions:
             betterrtp.bypass.*: true
             betterrtp.player: true
             betterrtp.reload: true
-            betterrtp.updater: true
     betterrtp.world:
         description: RTP into other worlds
     betterrtp.world.*:
@@ -36,7 +35,4 @@ permissions:
         description: Bypass economy
     betterrtp.reload:
         description: Reload the config
-        default: op
-    betterrtp.updater:
-        description: Get notification on new updates
         default: op

@@ -1,7 +1,4 @@
-# BetterRTP plugin by SuperRonanCraft! (Join my Public Server mc.RonanCraft.net) #
-# Please give me credit, I'm a first time coder, and would love to see more discussions on my Spigot page! #
-
-Language-File: 'en.yml'
+language: 'en'
 
 Settings:
   ## Respect WorldGuard areas # IN-PROGRESS
@@ -22,7 +19,6 @@ Settings:
   Delay:
     Time: 5
     CancelOnMove: true
-  DisableUpdater: false
 
 Default:
   UseWorldBorder: true
@@ -32,8 +28,8 @@ Default:
   MaxRadius: 100
   MinRadius: 10
   ## If "UseWorldBorder" is set to true above, these values WILL be ignored! Except Biomes! #
-  CenterX: 0
-  CenterZ: 0
+  centerX: 0
+  centerZ: 0
 
 ## Blocks BetterRTP will NOT teleport onto. More Blocks at: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html #
 BlacklistedBlocks:
@@ -60,13 +56,13 @@ CustomWorlds:
       ## If UseWorldBorder is true, everything will be ignored EXEPT "MinRadius"!
       MaxRadius: 1000
       MinRadius: 100
-      CenterX: 0
-      CenterZ: 0
+      centerX: 0
+      centerZ: 0
   - nether:
       MaxRadius: 100000
       MinRadius: 1000
-      CenterX: 123
-      CenterZ: -123
+      centerX: 123
+      centerZ: -123
       ## Biomes are optional, but useful! More biomes: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/block/Biome.html
       Biomes:
         - 'desert'

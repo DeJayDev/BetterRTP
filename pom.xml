@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>me.SuperRonanCraft</groupId>
-    <artifactId>BetterRTP</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <groupId>dev.dejay</groupId>
+    <artifactId>EvenBetterRTP</artifactId>
+    <version>2.8.0</version>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -19,39 +19,19 @@
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
         <repository>
-            <id>vault-repo</id>
-            <url>http://nexus.hc.to/content/repositories/pub_releases</url>
-        </repository>
-        <repository>
             <id>sk89q-repo</id>
-            <url>http://maven.sk89q.com/repo/</url>
+            <url>https://maven.enginehub.org/repo/</url>
         </repository>
-
         <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
         </repository>
-
     </repositories>
     <dependencies>
-        <!--Spigot API-->
         <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-api</artifactId>
-            <version>1.14-R0.1-SNAPSHOT</version>
-            <scope>provided</scope>
-        </dependency>
-        <!--Bukkit API-->
-        <dependency>
-            <groupId>org.bukkit</groupId>
-            <artifactId>bukkit</artifactId>
-            <version>1.14-R0.1-SNAPSHOT</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency> <!-- Spigot (this includes Spigot API, Bukkit API, Craftbukkit and NMS) -->
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot</artifactId>
-            <version>1.15.2-R0.1-SNAPSHOT</version>
+            <groupId>com.destroystokyo.paper</groupId>
+            <artifactId>paper</artifactId>
+            <version>1.16.1-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -61,15 +41,15 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.sk89q</groupId>
-            <artifactId>worldguard</artifactId>
-            <version>6.1</version>
+            <groupId>com.sk89q.worldguard</groupId>
+            <artifactId>worldguard-bukkit</artifactId>
+            <version>7.0.4-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.github.TechFortress</groupId>
             <artifactId>GriefPrevention</artifactId>
-            <version>16.7.1</version>
+            <version>16.13.0</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
